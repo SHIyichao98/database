@@ -1,0 +1,14 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"greek_pottery"},
+{"type":"table","name":"pottery","database":"greek_pottery","data":
+[
+{"id":"3","filename":"7f19340044abe74cf259080327e3c86d.JPG","shape":"Shape A","size":"100","material":"Material B","usage_description":"Usage C","upload_time":"2025-05-21 18:39:52","origin_site":"Site A"},
+{"id":"4","filename":"3041c4af0cd5ee8481325ab1eebd00b0.JPG","shape":"Shape B","size":"200","material":"Material C","usage_description":"Usage A","upload_time":"2025-05-21 18:41:13","origin_site":"Site B"},
+{"id":"5","filename":"826932a82e35d063d6d07898c8ab1ed9.JPG","shape":"Shape C","size":"150","material":"Material A","usage_description":"Usage B","upload_time":"2025-05-21 18:42:48","origin_site":"Site C"},
+{"id":"6","filename":"be875bb9d4d10ba9c7bc64deddb5f4dc.JPG","shape":"Shape A","size":"250","material":"Material C","usage_description":"Usage B","upload_time":"2025-05-21 18:43:58","origin_site":"Site C"},
+{"id":"7","filename":"c3103deb0cd1c680fbc2f7505344a03b.JPG","shape":"Shape B","size":"300","material":"Material A","usage_description":"Usage C","upload_time":"2025-05-21 18:45:18","origin_site":"Site B"}
+]
+}
+]
+

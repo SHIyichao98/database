@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Greek Pottery Gallery</title>
+  <style>
+  #gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding-top: 20px;
+  }
+
+.card {
+  padding: 16px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.card p {
+  margin: 4px 0;
+  border: none;
+  padding: 0;
+}
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  body {
+    font-family: sans-serif;
+    margin: 40px;
+  }
+
+  input[type="text"] {
+    padding: 6px;
+    font-size: 14px;
+  }
+</style>
+
+</head>
+<body>
+  <h2>Greek Pottery Gallery</h2>
+
+  <label for="filter-all"><strong>Search All Fields:</strong></label>
+  <input type="text" id="filter-all" placeholder="e.g. Delphi, Amphora, Clay, Wine..." style="margin-bottom: 20px; display: block; width: 300px;">
+
+
+  <div id="gallery">Loading...</div>
+
+  <script src="js/script.js?v=11"></script>
+</body>
+</html>
+
+
+
+
+
